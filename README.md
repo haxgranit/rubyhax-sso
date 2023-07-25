@@ -1,6 +1,19 @@
 # Single Sign-On (SSO) Implementation with Ruby on Rails using Google OAuth
 This repository provides a sample implementation of Single Sign-On (SSO) in a Ruby on Rails application using Google OAuth.
 
+Here's a high-level architecture and workflow diagram for the SSO implementation in a Ruby on Rails application:
+![image](https://github.com/haxgranit/rubyhax-sso/assets/28113737/58191a63-0467-4a42-b016-667e381b31ff)
+
+Description:
+
+1. User: Represents the end-user trying to access the web application.
+2. Web Application: The main Ruby on Rails application where the user initiates the login process.
+3. SSO Service: The central service responsible for handling Single Sign-On authentication. It communicates with various identity providers (IdPs) to authenticate the user.
+4. Identity Providers (IdPs): These are third-party services or custom solutions that validate the user's identity. Examples include Google, Microsoft, Facebook, and custom SAML-based solutions.
+5. RBAC Service: This service manages Role-Based Access Control, determining what actions a user can perform within the application based on their assigned roles.
+6. Database: Stores user roles and permissions, which the RBAC service queries to enforce access controls.
+
+
 # Overview
 The project demonstrates how to integrate Google OAuth for authentication in a Rails application. It uses the devise gem for user management and the omniauth-google-oauth2 gem for OAuth integration.
 
