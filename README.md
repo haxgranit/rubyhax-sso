@@ -5,9 +5,10 @@ This repository provides a sample implementation of Single Sign-On (SSO) in a Ru
 The project demonstrates how to integrate Google OAuth for authentication in a Rails application. It uses the devise gem for user management and the omniauth-google-oauth2 gem for OAuth integration.
 
 # Prerequisites
-Ruby version: x.x.x
-Rails version: x.x.x
+Ruby version: 3.2.2
+Rails version: 7.0.6
 PostgreSQL (or adjust the database settings as needed)
+
 # Setup
 ## Clone the Repository
 ## Install Dependencies
@@ -16,10 +17,10 @@ PostgreSQL (or adjust the database settings as needed)
 Set up your Google OAuth credentials. You'll need to create a project on the Google Developer Console, enable the Google+ API, and obtain the GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET.
 
 Add these to your environment or use a gem like dotenv to manage them:
-GOOGLE_CLIENT_ID=your_client_id
-GOOGLE_CLIENT_SECRET=your_client_secret
+  GOOGLE_CLIENT_ID=your_client_id
+  GOOGLE_CLIENT_SECRET=your_client_secret
 
 ## Usage
-Navigate to the sign-in page.
-Click on "Sign in with Google".
-If authentication is successful, you'll be signed in using your Google account.
+  Navigate to the sign-in page.
+  Click on "Sign in with Google".
+  If authentication is successful, you'll be signed in using your Google account.
