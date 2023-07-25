@@ -1,4 +1,5 @@
-# Single Sign-On (SSO) Implementation with Ruby on Rails using Google OAuth
+**# Single Sign-On (SSO) Implementation with Ruby on Rails using Google OAuth**
+
 This repository provides a sample implementation of Single Sign-On (SSO) in a Ruby on Rails application using Google OAuth.
 
 Here's a high-level architecture and workflow diagram for the SSO implementation in a Ruby on Rails application:
@@ -7,7 +8,7 @@ Here's a high-level architecture and workflow diagram for the SSO implementation
 ![image](https://github.com/haxgranit/rubyhax-sso/assets/28113737/f288a739-3ad1-468a-a44e-ec4be9b4b227)
 
 
-Description:
+**Description:**
 
 1. User: Represents the end-user trying to access the web application.
 2. Web Application: The main Ruby on Rails application where the user initiates the login process.
@@ -21,9 +22,9 @@ Description:
 The project demonstrates how to integrate Google OAuth for authentication in a Rails application. It uses the devise gem for user management and the omniauth-google-oauth2 gem for OAuth integration.
 
 # Prerequisites
-Ruby version: 3.2.2
-Rails version: 7.0.6
-PostgreSQL (or adjust the database settings as needed)
+* Ruby version: 3.2.2
+* Rails version: 7.0.6
+* PostgreSQL (or adjust the database settings as needed)
 
 # Setup
 ## Clone the Repository
@@ -33,10 +34,10 @@ PostgreSQL (or adjust the database settings as needed)
 Set up your Google OAuth credentials. You'll need to create a project on the Google Developer Console, enable the Google+ API, and obtain the GOOGLE_CLIENT_ID and GOOGLE_CLIENT_SECRET.
 
 Add these to your environment or use a gem like dotenv to manage them:
-  GOOGLE_CLIENT_ID=your_client_id
-  GOOGLE_CLIENT_SECRET=your_client_secret
+*   GOOGLE_CLIENT_ID=your_client_id
+*   GOOGLE_CLIENT_SECRET=your_client_secret
 
 ## Usage
-  Navigate to the sign-in page.
-  Click on "Sign in with Google".
-  If authentication is successful, you'll be signed in using your Google account.
+1. [ ]   Navigate to the sign-in page.
+2. [ ]   Click on "Sign in with Google".
+3. [ ]   If authentication is successful, you'll be signed in using your Google account.
