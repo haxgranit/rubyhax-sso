@@ -4,6 +4,9 @@ This repository provides a sample implementation of Single Sign-On (SSO) in a Ru
 Here's a high-level architecture and workflow diagram for the SSO implementation in a Ruby on Rails application:
 ![image](https://github.com/haxgranit/rubyhax-sso/assets/28113737/58191a63-0467-4a42-b016-667e381b31ff)
 
+![image](https://github.com/haxgranit/rubyhax-sso/assets/28113737/f288a739-3ad1-468a-a44e-ec4be9b4b227)
+
+
 Description:
 
 1. User: Represents the end-user trying to access the web application.
