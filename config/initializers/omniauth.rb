@@ -1,3 +1,5 @@
+require 'omniauth-facebook'
+
 # OmniAuth configuration
 Rails.application.config.middleware.use OmniAuth::Builder do
   # Configuration for Google OAuth2

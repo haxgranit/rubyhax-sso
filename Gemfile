@@ -44,6 +44,7 @@ gem "bootsnap", require: false
 
 gem 'omniauth'
 gem 'omniauth-google-oauth2'
+gem 'omniauth-facebook'
 gem 'devise'
 
 # Use Sass to process CSS
