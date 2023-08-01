@@ -42,11 +42,6 @@ gem "tzinfo-data", platforms: %i[ mingw mswin x64_mingw jruby ]
 # Reduces boot times through caching; required in config/boot.rb
 gem "bootsnap", require: false
 
-gem 'omniauth'
-gem 'omniauth-google-oauth2'
-gem 'omniauth-facebook'
-gem 'devise'
-
 # Use Sass to process CSS
 # gem "sassc-rails"
 
@@ -75,3 +70,12 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+# SSO implementation
+gem "devise", "~> 4.9"
+gem "omniauth", "~> 2.1"
+gem "omniauth-auth0", "~> 3.1"
+gem "omniauth-facebook", "~> 9.0"
+gem "omniauth-google-oauth2", "~> 1.1"
+gem "omniauth-rails_csrf_protection", "~> 1.0"
+
