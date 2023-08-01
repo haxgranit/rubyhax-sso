@@ -63,6 +63,8 @@ Set up your Google OAuth credentials. You'll need to create a project on the Goo
 Add these to your environment or use a gem like dotenv to manage them:
 *   GOOGLE_CLIENT_ID=your_client_id
 *   GOOGLE_CLIENT_SECRET=your_client_secret
+*   AUTH0_CLIENT_SECRET=auth0_client_id
+*   AUTH0_CLIENT_SECRET=auth0_client_secret
 
 ## Usage
 1. [ ]   Navigate to the sign-in page.
