@@ -1,4 +1,4 @@
-**# Single Sign-On (SSO) Implementation with Ruby on Rails using Google OAuth**
+**# Single Sign-On (SSO) Implementation with Ruby on Rails using OmniAuth, Auth0, Okta**
 
 This repository provides a bridge of Single Sign-On (SSO) in Ruby on Rails applications using OmniAuth, Auth0, Okta, and more innovative techniques.
 

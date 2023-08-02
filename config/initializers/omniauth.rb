@@ -24,6 +24,14 @@ Rails.application.config.middleware.use OmniAuth::Builder do
              display: 'page'
            }
 
+  # Configuration for Azure Active Directory (v2)
+  # You'll need to get your AZURE_CLIENT_ID and AZURE_CLIENT_SECRET from the Azure portal.
+  provider(:azure_activedirectory_v2,
+    {
+      client_id:     ENV['AZURE_CLIENT_ID'],
+      client_secret: ENV['AZURE_CLIENT_SECRET']
+    }
+  )
   # Add other providers as needed
 end
 
