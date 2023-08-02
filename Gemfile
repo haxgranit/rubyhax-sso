@@ -75,7 +75,9 @@ end
 gem "devise", "~> 4.9"
 gem "omniauth", "~> 2.1"
 gem "omniauth-auth0", "~> 3.1"
+gem "omniauth-azure-activedirectory-v2", "~> 2.0"
 gem "omniauth-facebook", "~> 9.0"
 gem "omniauth-google-oauth2", "~> 1.1"
 gem "omniauth-rails_csrf_protection", "~> 1.0"
+
 
