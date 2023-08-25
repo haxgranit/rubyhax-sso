@@ -4,27 +4,27 @@ This repository provides a bridge of Single Sign-On (SSO) in Ruby on Rails appli
 
 1. Devise with OmniAuth
 ```
-	• Integration: Utilized the Devise gem for user authentication and added OmniAuth for third-party authentication.
-	• Protocols: Supported OAuth 2.0 for Google and Facebook integrations.
-	• Implementation: Configured OmniAuth strategies for Google and Facebook in the Devise initializer.
-	• RBAC: Used CanCanCan gem in conjunction with Devise to handle role-based access control.
-	• Security: Implemented token validation and ensured secure storage of tokens.
+• Integration: Utilized the Devise gem for user authentication and added OmniAuth for third-party authentication.
+• Protocols: Supported OAuth 2.0 for Google and Facebook integrations.
+• Implementation: Configured OmniAuth strategies for Google and Facebook in the Devise initializer.
+• RBAC: Used CanCanCan gem in conjunction with Devise to handle role-based access control.
+• Security: Implemented token validation and ensured secure storage of tokens.
 ```
 2. Auth0 with Ruby on Rails SDK
 ```
-	• Integration: Used the Auth0 Ruby on Rails SDK to integrate the application with the Auth0 platform.
-	• Protocols: Supported OpenID Connect and SAML for diverse third-party integrations.
-	• Implementation: Set up Universal Login with Auth0, allowing users to authenticate with multiple identity providers.
-	• RBAC: Utilized Auth0's core authorization feature to define roles and permissions.
-	• Security: Enabled Multi-Factor Authentication (MFA) and implemented Auth0's anomaly detection for added security.
+• Integration: Used the Auth0 Ruby on Rails SDK to integrate the application with the Auth0 platform.
+• Protocols: Supported OpenID Connect and SAML for diverse third-party integrations.
+• Implementation: Set up Universal Login with Auth0, allowing users to authenticate with multiple identity providers.
+• RBAC: Utilized Auth0's core authorization feature to define roles and permissions.
+• Security: Enabled Multi-Factor Authentication (MFA) and implemented Auth0's anomaly detection for added security.
 ```
 3. Okta with Ruby on Rails
 ```
-	• Integration: Incorporated the Okta Ruby SDK to connect the Rails application with Okta's identity cloud.
-	• Protocols: Supported OAuth 2.0 and OpenID Connect for a range of third-party integrations.
-	• Implementation: Configured Okta's inline hooks to customize the authentication and registration flows.
-	• RBAC: Used Okta's Groups and API Access Management features to implement role-based access control.
-	• Security: Leveraged Okta's Adaptive MFA and threat insights for enhanced security.
+• Integration: Incorporated the Okta Ruby SDK to connect the Rails application with Okta's identity cloud.
+• Protocols: Supported OAuth 2.0 and OpenID Connect for a range of third-party integrations.
+• Implementation: Configured Okta's inline hooks to customize the authentication and registration flows.
+• RBAC: Used Okta's Groups and API Access Management features to implement role-based access control.
+• Security: Leveraged Okta's Adaptive MFA and threat insights for enhanced security.
 ```
 Here's a high-level architecture and workflow diagram for the SSO implementation in a Ruby on Rails application:
 ![image](https://github.com/haxgranit/rubyhax-sso/assets/28113737/58191a63-0467-4a42-b016-667e381b31ff)
